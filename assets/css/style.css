@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #f7f1f1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+
+}#navbar {
+    display: flex;
+    gap: 10px; 
+}
+
+#navbar button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.page_title {
+    padding-top: 6px;
+    padding-left: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    color: #0a5e78;
+}
+
+.page_title:hover {
+    color: #157997;
+}
+
+.footer {
+   
+    justify-content: center;
+    align-items: center;
+    height: 80px; 
+    background-color: #f7f1f1; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+/*Add item page style*/
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #f53500;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #d72f00;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+
+.product-item p {
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
